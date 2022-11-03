@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(35, 73, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 5px 10%;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+}
+
+.nav li a {
+    padding: 0 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
