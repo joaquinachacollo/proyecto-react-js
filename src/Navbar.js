@@ -4,7 +4,7 @@ const Navbar = () => {
     return(
     <header>
         <div className="logo">
-            <img src={CartWidget} alt=""></img>
+            <CartWidget/>
         </div>
         <nav>
             <ul className="nav">
