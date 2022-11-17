@@ -1,0 +1,8 @@
+
+[
+    {"id": 1, "nombre": "teclado mecanico", "stock": 5, "img": "https://http2.mlstatic.com/D_NQ_NP_621702-MLA46979859390_082021-O.jpg"},
+    {"id": 2, "nombre": "mouse gamer", "stock": 3, "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMJ1g5flii44eZZ1qORNMebMpTqMOV5TaF4-c9SH5R_cWcJxcWjtiIU4tL8Gcpyu4PoI&usqp=CAU"},
+    {"id": 3, "nombre": "auriculares gamer", "stock": 6, "img":"https://mexx-img-2019.s3.amazonaws.com/30156_1.jpeg"},
+    {"id": 4, "nombre": "silla gamer", "stock": 15, "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/392/products/1-red1-90615f9d44bda0cf6116270016365535-1024-1024.jpg"},
+    {"id": 5, "nombre": "monitor gamer", "stock": 7, "img": "https://http2.mlstatic.com/D_NQ_NP_721448-MLA45212599699_032021-O.webp"}
+]

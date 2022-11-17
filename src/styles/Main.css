@@ -1,0 +1,27 @@
+
+main{
+    background-color: rgb(0, 0, 0);
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+
+.img-catalogo{
+    height: 350px;
+    width: 350px;
+    border: 6px solid rgb(44, 120, 170);
+    border-radius: 20px;
+}
+
+.titulo-catalogo{
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 25px 0 50px 0;
+    color: aliceblue;
+}

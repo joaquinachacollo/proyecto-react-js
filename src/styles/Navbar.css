@@ -13,6 +13,17 @@ header{
     padding: 5px 10%;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo h2{
+    padding-left: 15px;
+}
+
 .nav{
     list-style: none;
     display: flex;
@@ -25,7 +36,7 @@ header{
     font-size: 20px;
 }
 
-img{
+.logo-img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
