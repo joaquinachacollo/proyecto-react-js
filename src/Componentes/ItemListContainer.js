@@ -1,15 +1,17 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
-
+import {item} from "../mocks/item.mock";
 
 const ItemListContainer = () => {
 
     const [products, setproducts] = useState([])
 
     useEffect(() => {
-        fetch("/data.json")
-        .then((data) => data.json())
-        .then((data) => setproducts(data))
+        new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(item)
+            }, 3000)
+        }).then((data) => setproducts(data))
     },[])
 
     return(

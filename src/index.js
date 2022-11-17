@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import ItemDetailContainer from './Componentes/ItemDetailContainer';
-import ItemListContainer from './Componentes/ItemListContainer';
-
+import { router } from './router';
+import { RouterProvider } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App/>
-    <ItemListContainer/>
-    <ItemDetailContainer/>
+    <RouterProvider router= {router}/>
   </>
   
 );

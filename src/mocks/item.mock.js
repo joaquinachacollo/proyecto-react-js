@@ -1,0 +1,7 @@
+export const item = [
+    {id: "1", name: "teclado mecanico", stock: 5, descripcion: "Este teclado de alto rendimiento permite que puedas disfrutar de horas ilimitadas de juegos." ,img: "https://http2.mlstatic.com/D_NQ_NP_621702-MLA46979859390_082021-O.jpg"},
+    {id: "2", name: "mouse gamer", stock: 3, descripcion: "El mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas." ,img: "https://gaminglab.com.mx/wp-content/uploads/2021/04/Logitech_G203_Negro_01.jpg"},
+    {id: "3", name: "auriculares gamer", stock: 6, descripcion: "Experimentá la adrenalina de sumergirte en la escena de otra manera Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida." ,img: "https://mexx-img-2019.s3.amazonaws.com/30156_1.jpeg"},
+    {id: "4", name: "silla gamer", stock: 15, descripcion: "Sillon Gamer Pc Reclinable Ergonomica Postural Giratoria" ,img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/392/products/1-red1-90615f9d44bda0cf6116270016365535-1024-1024.jpg"},
+    {id: "5", name: "monitor gamer", stock: 7, descripcion: "Disfrutá de todas las cualidades que el monitor Gigabyte G27F tiene para ofrecerte. Percibí las imágenes de una manera completamente diferente y complementá cualquier espacio ya sea en tu casa u oficina." ,img: "https://http2.mlstatic.com/D_NQ_NP_721448-MLA45212599699_032021-O.webp"}
+]
