@@ -1,10 +1,10 @@
 import {createBrowserRouter} from "react-router-dom"
-import ItemDetailContainer from "../Componentes/ItemDetailContainer"
+import ItemListContainer from "../Componentes/ItemListContainer"
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <ItemDetailContainer/>,
+        element: <ItemListContainer/>,
     },
     //{},
     //{}
