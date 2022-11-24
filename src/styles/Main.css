@@ -1,6 +1,11 @@
 
-.fondo{
-    background-color: rgb(0, 0, 0);
+html{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .container-main{
@@ -13,7 +18,7 @@
 
 
 .img-catalogo{
-    height: 350px;
+    height: 300px;
     width: 350px;
     border: 6px solid rgb(44, 120, 170);
     border-radius: 20px;
@@ -24,4 +29,11 @@
     font-weight: lighter;
     margin: 25px 0 50px 0;
     color: aliceblue;
+}
+
+.boton-catalogo{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
 }

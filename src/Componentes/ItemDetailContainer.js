@@ -4,13 +4,13 @@ import { item as itemMock } from "../mocks/item.mock"
 
 const ItemDetailContainer = () => {
 
-    const [item, setItem] = useState(null)
+    const [item, setItem] = useState([])
 
     useEffect(() => {
         new Promise((resolve) => {
             setTimeout(() => {
                 resolve(itemMock[0])
-            }, 3000)
+            }, 1000)
         }).then((data) => setItem(data))
     },[])
 

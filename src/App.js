@@ -1,13 +1,13 @@
-import Navbar from "./Componentes/Navbar";
 import ItemListContainer from "./Componentes/ItemListContainer";
-import ItemDetailContainer from "./Componentes/ItemDetailContainer";
-
+import Navbar from "./Componentes/Navbar";
+import {Context} from "./context/CartContext"
 function App() {
   return(
     <>
-      <Navbar/>
-      <ItemListContainer/>
-      <ItemDetailContainer/>
+      <Context.Provider value={context}>
+        <Navbar/>
+        <ItemListContainer/>
+      </Context.Provider>  
     </>
   );
 }

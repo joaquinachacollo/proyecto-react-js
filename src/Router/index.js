@@ -1,11 +1,18 @@
-import {createBrowserRouter} from "react-router-dom"
-import ItemListContainer from "../Componentes/ItemListContainer"
-
+import { createBrowserRouter } from "react-router-dom"
+import App from "../App"
+import Category from "../views/category"
+import Item from "../views/item"
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <ItemListContainer/>,
+        element: <App/>,
     },
-    //{},
-    //{}
+    {
+        path: "/category/:category",
+        element: <Category/>,
+    },
+    {
+        path: "/item/:id",
+        element: <Item/>,
+    },
 ])
