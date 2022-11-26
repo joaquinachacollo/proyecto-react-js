@@ -1,9 +1,6 @@
 
-html{
-    background-color: black;
-}
-
 .container{
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -27,8 +24,8 @@ html{
 .titulo-catalogo{
     font-size: 25px;
     font-weight: lighter;
-    margin: 25px 0 50px 0;
     color: aliceblue;
+    margin-top: 25px;
 }
 
 .boton-catalogo{
@@ -36,4 +33,10 @@ html{
     height: 35px;
     font-size: 15px;
     cursor: pointer;
+}
+
+.precio-catalogo{
+    color: aliceblue;
+    margin: 25px;
+    font-size: 25px;
 }

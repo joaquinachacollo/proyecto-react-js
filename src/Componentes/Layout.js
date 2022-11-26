@@ -1,10 +1,11 @@
 import Navbar from "./Navbar"
 
-export const Layout = ({Children}) => {
+export const Layout = ({children}) => {
     return(
         <>
             <Navbar/>
-            {Children}
+            {children}
+            
         </>
     )
 }

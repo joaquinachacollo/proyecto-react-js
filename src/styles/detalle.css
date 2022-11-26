@@ -1,0 +1,49 @@
+.container-detalle{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 53rem;
+}
+
+.nombre-detalle{
+    font-size: 35px;
+    margin: 25px;
+}
+
+.img-detalle{
+    height: 500px;
+    width: 550px;
+    border-radius: 6%;
+    padding-bottom: 20px;
+}
+
+.container-det{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion{
+    font-size: 20px;
+}
+
+.stock{
+    margin: 25px;
+    font-size: 30px;
+}
+
+.precio{
+    font-size: 30px;
+}
+
+.boton-detalle{
+    width: 80px;
+    margin-top: 24px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
