@@ -1,11 +1,11 @@
-import Navbar from "../Componentes/Navbar"
 import ItemDetailContainer from "../Componentes/ItemDetailContainer";
-
+import {Layout} from "../Componentes/Layout"
 const ItemView = () => {
     return(
         <>
-            <Navbar/>            
-            <ItemDetailContainer/>
+            <Layout>
+                <ItemDetailContainer/>
+            </Layout>         
         </>
     )
 }

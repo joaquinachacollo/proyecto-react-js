@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { router } from './Router/index';
 import { RouterProvider } from "react-router-dom"
+import { CartContextProvider } from './context/CartContextProvider';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <RouterProvider router= {router}/>
+    <CartContextProvider>
+      <RouterProvider router= {router}/>
+    </CartContextProvider>
   </>
   
 );

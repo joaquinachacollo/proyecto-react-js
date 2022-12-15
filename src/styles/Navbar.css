@@ -27,6 +27,8 @@ header{
 .nav{
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav li a {
@@ -40,4 +42,9 @@ header{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+.carrito{
+    height: 40px;
+    width: 40px;
 }

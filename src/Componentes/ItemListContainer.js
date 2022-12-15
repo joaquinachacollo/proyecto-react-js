@@ -3,7 +3,6 @@ import ItemList from "./ItemList";
 import {item} from "../mocks/item.mock";
 import {useParams} from "react-router-dom"
 
-
 const ItemListContainer = () => {
 
     const {category} = useParams();

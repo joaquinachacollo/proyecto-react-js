@@ -1,12 +1,12 @@
 import ItemListContainer from "../Componentes/ItemListContainer";
-import Navbar from "../Componentes/Navbar";
-
+import {Layout} from "../Componentes/Layout"
 const CategoryView = () => {
 
     return(
         <>
-           <Navbar/>
-           <ItemListContainer/>
+           <Layout>
+                <ItemListContainer/>
+           </Layout>
         </>
     )
 }

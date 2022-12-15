@@ -1,6 +1,7 @@
-import NavBar from "../styles/Navbar.css"
+import "../styles/Navbar.css"
 import CartWidget from "../Componentes/CartWidget";
 import {Link} from "react-router-dom"
+import icono from "../img/carrito.png"
 const Navbar = () => {
     return(
     <header>
@@ -13,11 +14,10 @@ const Navbar = () => {
                 <li><Link to="/">Inicio</Link></li>
                 <li><Link to="/category/teclado">Teclados</Link></li>
                 <li><Link to="/category/mouse">Mouses</Link></li>
-                {/* <li><Link to="/item/">item</Link></li> */}
-                
-                {/* <li><a href="">Productos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contactos</a></li> */}
+                <li><Link to="/category/silla">Sillas</Link></li>
+                <li><Link to="/category/monitor">Monitores</Link></li>
+                <li><Link to="/category/auriculares">Auriculares</Link></li>
+                <li><Link><img className="carrito" src={icono}></img></Link></li>
             </ul>
         </nav>
     </header>

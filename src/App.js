@@ -1,10 +1,11 @@
 import ItemListContainer from "./Componentes/ItemListContainer";
-import Navbar from "./Componentes/Navbar";
+import { Layout } from "./Componentes/Layout"
 function App() {
   return(
-    <>
-      <Navbar/>
-      <ItemListContainer/>
+    <>  
+      <Layout>
+        <ItemListContainer/>
+      </Layout>
     </>
   );
 }

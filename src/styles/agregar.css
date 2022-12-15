@@ -1,0 +1,25 @@
+.container-agregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px 0;
+}
+
+.count{
+    padding: 0 5px;
+    font-size: 30px;
+}
+
+.menos{
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+}
+
+.mas{
+    height: 35px;
+    width: 35px;
+    font-size: 24px;
+}
+

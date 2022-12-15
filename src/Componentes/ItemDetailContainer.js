@@ -1,4 +1,4 @@
-import {useEffect,useState} from "react"
+import { useEffect,useState } from "react"
 import ItemDetail from "./ItemDetail"
 import { item as itemMock } from "../mocks/item.mock"
 import { useParams } from "react-router-dom"

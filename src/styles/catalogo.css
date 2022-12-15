@@ -1,8 +1,11 @@
+html{
+    background-color: black;
+}
 
 .container{
-    background-color: black;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    height: auto;
 }
 
 .container-main{
