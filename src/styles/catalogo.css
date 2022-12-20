@@ -1,12 +1,10 @@
-html{
+.container{
     background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    height: auto;
-}
+
 
 .container-main{
     display: flex;
@@ -22,24 +20,37 @@ html{
     width: 350px;
     border: 6px solid rgb(44, 120, 170);
     border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.img-catalogo:hover{
+    transform: scale(1.1);   
 }
 
 .titulo-catalogo{
     font-size: 25px;
     font-weight: lighter;
     color: aliceblue;
-    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.stock-catalogo{
+    font-size: 25px;
+    font-weight: lighter;
+    color: aliceblue;
 }
 
 .boton-catalogo{
     width: 100px;
     height: 35px;
     font-size: 15px;
+    margin-top: 15px;
     cursor: pointer;
 }
 
 .precio-catalogo{
     color: aliceblue;
-    margin: 25px;
+    margin: 10px;
     font-size: 25px;
 }

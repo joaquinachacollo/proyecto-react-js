@@ -1,9 +1,11 @@
 import "../styles/detalle.css"
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { Link } from "react-router-dom"
 import { ItemCount } from "./ItemCount"
+import { Context } from "../context/CartContextProvider"
 
 const ItemDetail = ({item}) => {
+    const {addItem} = useContext(Context)
     const [count, setCount] = useState(1);
     const [stockActual, setStockActual] = useState(item.stock);
     const cantidadMax = stockActual;
@@ -23,6 +25,7 @@ const ItemDetail = ({item}) => {
         }
         else{
             setStockActual(stockActual - count)
+            addItem(item, count)
         }
     }
 

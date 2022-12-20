@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li><Link to="/category/silla">Sillas</Link></li>
                 <li><Link to="/category/monitor">Monitores</Link></li>
                 <li><Link to="/category/auriculares">Auriculares</Link></li>
-                <li><Link><img className="carrito" src={icono}></img></Link></li>
+                <li><Link to="/cart"><img className="carrito" src={icono}></img></Link></li>
             </ul>
         </nav>
     </header>

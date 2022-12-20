@@ -1,0 +1,40 @@
+.container-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+}
+
+.numero{
+    margin: 20px;
+    width: 550px;
+    height: 40px;
+}
+
+.nombre{
+    width: 550px;
+    height: 40px;
+}
+
+.email{
+    width: 550px;
+    height: 40px;
+}
+
+.total-final{
+    margin: 20px 0;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.boton-fin{
+    width: 150px;
+    height: 35px;
+}
+
+.container-checkout h1{
+    color: aliceblue;
+    padding-bottom: 20px;
+}

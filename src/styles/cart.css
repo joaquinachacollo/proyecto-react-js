@@ -1,0 +1,52 @@
+html{
+    background-color: black;
+}
+
+.vacio{
+    color: #fff;
+    text-align: center;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-inicio{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.container-quitar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-quitar{
+    padding: 10px;
+}
+
+.checkout{
+    margin-top: 12px;
+    margin-left: 46px;
+    padding: 10px;
+}
+
+.container-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.total{
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+}

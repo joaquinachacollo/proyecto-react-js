@@ -1,24 +1,17 @@
-import { useEffect,useState } from "react"
+import { useGetItem } from "../hooks/useGetItem"
 import ItemDetail from "./ItemDetail"
-import { item as itemMock } from "../mocks/item.mock"
-import { useParams } from "react-router-dom"
+import Loading from "./Loading";
+
 
 const ItemDetailContainer = () => {
+    
+    const item = useGetItem();
 
-    const {id} = useParams()
+    if (!item) {
+        return <Loading/>
+    }
 
-    const [item, setItem] = useState([])
-
-    useEffect(() => {
-        new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(itemMock.find((item) => item.id === id))
-            }, 1000)
-        }).then((data) => setItem(data))
-    },[id])
-
-
-    return(
+    return (
         <>
             <ItemDetail item={item}/>
         </>
