@@ -48,3 +48,8 @@ header{
     height: 40px;
     width: 40px;
 }
+
+.numero-cart{
+    color: aliceblue;
+    font-size: 22px;
+}

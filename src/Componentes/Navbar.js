@@ -1,7 +1,7 @@
 import "../styles/Navbar.css"
 import CartWidget from "../Componentes/CartWidget";
 import {Link} from "react-router-dom"
-import icono from "../img/carrito.png"
+import CartView from "./CartView";
 const Navbar = () => {
     return(
     <header>
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li><Link to="/category/silla">Sillas</Link></li>
                 <li><Link to="/category/monitor">Monitores</Link></li>
                 <li><Link to="/category/auriculares">Auriculares</Link></li>
-                <li><Link to="/cart"><img className="carrito" src={icono}></img></Link></li>
+                <CartView/>
             </ul>
         </nav>
     </header>
